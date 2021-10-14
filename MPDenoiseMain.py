@@ -93,7 +93,7 @@ def trainSeis():
     scheduler.step()
 
     ######### Loss ###########
-    l1_weights = 0.0
+    l1_weights = 0.6
     criterion = CharbonnierLoss()
 
     ######### DataLoaders ###########
